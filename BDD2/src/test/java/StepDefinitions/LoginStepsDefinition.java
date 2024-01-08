@@ -57,7 +57,7 @@ public class LoginStepsDefinition {
 	public void close_the_browser() {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
-		//driver.close();
+		//driver.close(); to avoid error
 		driver.quit();
 	}
 }
